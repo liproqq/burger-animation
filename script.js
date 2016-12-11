@@ -1,5 +1,5 @@
-$(document).ready(function(){
-  $("#burger-container").on("click", function(){
-    $(this).toggleClass("open");
-  });
-});
+window.onload = function () {
+ document.getElementById('burger-container').addEventListener('click', function () {
+  this.classList.toggle('open');
+ })
+}﻿
